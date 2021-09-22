@@ -1,0 +1,22 @@
+<updates>
+	<update>
+		<name><![CDATA[ Phoca Cart View Load Description Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart View - Load Description Plugin - plugin view method for Phoca Cart component. Loads additional columns for different views. ]]></description>
+		<element>load_description</element>
+		<folder>pcv</folder>
+		<type>plugin</type>
+		<version>3.5.7</version>
+		<infourl title="Phoca Cart View Load Description Plugin 3.5.7">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartViewLoadDescriptionPlugin/releases/download/3.5.7/plg_pcv_load_description_v3.5.7.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="3.9"/>
+		<client>site</client>
+	</update>
+</updates>

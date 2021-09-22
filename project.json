@@ -1,0 +1,19 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaCartViewLoadDescriptionPlugin",
+	"extensionName": "Phoca Cart View Load Description Plugin",
+	"projectInitials" : "PC",				  
+	"description": "Phoca Cart View - Load Description Plugin - plugin view method for Phoca Cart component. Loads additional columns for different views.",
+	"projectUrl": "https://www.phoca.cz/phocacart-extensions/2-plugins/59-phoca-cart-view-load-description-plugin",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/115-phoca-cart",
+	"projectMainComponent": "Phoca Cart",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocacart-joomla-ecommerce",
+	"projectDemo" : {
+		"Joomla! - Phoca Cart Demo": "https://www.phoca.cz/phocacartdemo/",
+		"Joomla! - Phoca Cart - Phoca Premiere Template Demo": "https://www.phoca.cz/phocacartdemo/premiere/"
+	},
+	"projectColor": "#129ed9"
+}

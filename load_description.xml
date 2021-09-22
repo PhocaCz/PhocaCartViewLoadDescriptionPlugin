@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="pcv" method="upgrade" version="3.9">
+	<name>plg_pcv_load_description</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>22/09/2021</creationDate>
+	<authorEmail></authorEmail>
+	<authorUrl>https://www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>3.5.7</version>
+	<description>PLG_PCV_LOAD_DESCRIPTION_DESCRIPTION</description>
+	<projectName>PhocaCartViewLoadDescriptionPlugin</projectName>
+
+	<files>
+		<folder>helpers</folder>
+		<filename plugin="load_description">index.html</filename>
+		<filename plugin="load_description">load_description.php</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pcv_load_description.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pcv_load_description.sys.ini</language>
+	</languages>
+
+	<administration>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pcv_load_description.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pcv_load_description.sys.ini</language>
+		</languages>
+	</administration>
+	<form>
+	<fields name="params" addfieldpath="/administrator/components/com_phocacart/models/fields">
+	<fieldset name="shipping" addpath="/administrator/components/com_phocacart/models/fields" group="pcv">
+
+	
+
+	
+	</fieldset>
+	</fields>
+
+</form>
+	
+
+	<updateservers>
+		<server type="extension" name="PLG_PCV_LOAD_DESCRIPTION" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartViewLoadDescriptionPlugin/master/manifest.xml]]></server>
+	</updateservers>
+</extension>
