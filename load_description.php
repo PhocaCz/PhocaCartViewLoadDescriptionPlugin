@@ -22,32 +22,32 @@ class plgPCVLoad_Description extends JPlugin
 
 	}
 
-	public function PCVonItemsBeforeLoadColumns($context, &$options, $eventData) {
+	public function onPCVonItemsBeforeLoadColumns($context, &$options, $eventData) {
 		$options['columns'] = array('a.description', 'a.description_long', 'a.features');
 		return true;
 	}
-	
-	public function PCVonCategoryBeforeLoadColumns($context, &$options, $eventData) {
+
+	public function onPCVonCategoryBeforeLoadColumns($context, &$options, $eventData) {
 		$options['columns'] = array('a.description', 'a.description_long', 'a.features');
 		return true;
 	}
-	
-	public function PCVonCategoriesBeforeLoadColumns($context, &$options, $eventData) {
+
+	public function onPCVonCategoriesBeforeLoadColumns($context, &$options, $eventData) {
 		//$options['columns'] = array('c.id');
 		return true;
 	}
-	
-	public function PCVonItemBeforeLoadColumns($context, &$options, $eventData) {
+
+	public function onPCVonItemBeforeLoadColumns($context, &$options, $eventData) {
 		//$options['columns'] = array('i.id');
 		return true;
 	}
-	
-	public function PCVonProductBeforeLoadColumns($context, &$options, $eventData) {
+
+	public function onPCVonProductBeforeLoadColumns($context, &$options, $eventData) {
 		//$options['columns'] = array('i.id');
 		return true;
 	}
-	
-	public function PCVonProductsBeforeLoadColumns($context, &$options, $eventData) {
+
+	public function onPCVonProductsBeforeLoadColumns($context, &$options, $eventData) {
 		$options['columns'] = array('a.features');
 		return true;
 	}
